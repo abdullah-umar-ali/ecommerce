@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navigation">
+            <div class="img">
+                <img src="images/logo.png" alt="">
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Acount</a></li>
+                    <li id="hide"><i class="fas fa-times"></i></li>
+                </ul>
+                <div class="cart">
+                    <img src="images/cart.png" alt="">
+                </div>
+                <div class="menu" id="icon">
+                    <img src="images/menu.png" alt="">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <table>
+            <thead>
+                <tr>
+                    <td>Product</td><td>Quantity</td><td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="images/product-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>Red Printed T-shirt</h3>
+                            <h4>Price: 50.00$</h4>
+                            <a href="">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                       <input type="number" min="1" step="1" value="1"> 
+                    </td>
+                    <td>
+                        50.00$
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="images/product-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>Red Printed T-shirt</h3>
+                            <h4>Price: 50.00$</h4>
+                            <a href="">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                       <input type="number" min="1" step="1" value="1"> 
+                    </td>
+                    <td>
+                        50.00$
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="images/product-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>Red Printed T-shirt</h3>
+                            <h4>Price: 50.00$</h4>
+                            <a href="">remove</a>
+                        </div>
+                    </td>
+                    <td>
+                       <input type="number" min="1" step="1" value="1"> 
+                    </td>
+                    <td>
+                        50.00$
+                    </td>
+                </tr>
+
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td><td class="row"><h3>Subtotal</h3>200.00$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td><td class="row"><h3>Tax</h3>200.00$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td><td class="row"><h3>Total</h3>200.00$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                         <a href=""><button>Proceed to checkout &rarr;</button></a>
+                   </td> 
+               </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+
+        <footer>
+            <div class="container">
+                <div class="foot">
+                    <div class="col6-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS mobile phone</p>
+                        <div>
+                            <img src="images/app-store.png" alt="">
+                            <img src="images/play-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col6-2">
+                        <div><img src="images/logo-white.png" alt=""></div>
+                        <p>Our purpose is to sustainably make the Pleasure and Benfits of sports
+                            accecible to the many</p>
+                    </div>
+                    <div class="coll6-3">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Join Athelete</a></li>
+                        </ul>
+                    </div>
+                    <div class="col6-4">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </div>
+            <hr>
+            <h4>Copyright@2020</h4>
+    
+        </footer>
+        <script>
+              var icon = document.getElementById('icon'),
+                  menu = document.getElementById('menu'),
+                 hide = document.getElementById('hide');
+    
+    
+                    icon.onclick = function(){
+                        menu.style.display = "flex";
+                    }
+                    hide.onclick = function(){
+                        menu.style.display = "none";
+                    }
+    
+        </script>
+        
+        
+    </body>
+    </html>
